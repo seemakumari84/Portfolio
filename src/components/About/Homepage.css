@@ -1,0 +1,68 @@
+.homepage_container {
+    display: flex;
+    align-items: center;
+    height: 90vh;
+}
+.homepage_left {
+    flex: 0.9;
+    padding-right: 20px;
+}
+.homepage_left_description{
+    font-size: 20px;
+    color:whitesmoke;
+}
+.homepage_left_description li{
+    margin-top: 6px;
+}
+.homepage_left_description span{
+    color: yellow;
+}
+.homepage_left_description p{
+    line-height: 25px;
+    font-size: 20px;
+}
+#highlight{
+    color:red;
+    font-size: 25px;
+}
+#gitImg{
+    margin-right: 15px;
+}
+.about_button{
+    font-size: 20px;
+    padding:8px 16px;
+    margin-top: 30px;
+    background-color: #080808;
+    color:red;
+}
+.homepage_right {
+    flex: 0.3;margin-left: 50px;
+}
+.red_color {
+    color: red;
+}
+.homepage_left_h1 {
+    font-size: 22px;
+}
+.homepage_left_h2 {
+    font-size: 64px;
+    font-weight: 700;
+    margin: -15px 0;
+}
+.homepage_left_h3 {
+    font-size: 42px;
+}
+.homepage_left_description {
+    font-size: 20px;
+}
+.homepage_left_button {
+    margin-top: 25px;
+    font-size: 20px;
+    padding: 8px 10px;
+    background-color: black;
+    color: red;
+}
+#highlight{
+    color:red;
+    font-size: 30px;
+}

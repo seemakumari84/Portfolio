@@ -1,47 +1,12 @@
 .TechStack_cont{
-    height: 100vh;
+    height: 80vh;
 }
 .Techstack_title{
     text-align: center;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 700;
 }
 .Techstack_img_row_cont{
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 70%;
-}
-.techstack_img_cont_row1{
-    display: flex;
-    justify-content: space-evenly;
-}
-.techstack_img_cont_row2{
-    display: flex;
-    justify-content: space-evenly;
-}
-.teckstack_img_element_cont{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 35px;
-}
-.teckstack_img_element_cont>img{
-    width:150px;
-}
-.techstack_title{
-    text-align:end;
-    font-size: 60px;
-    font-weight: 700;
-    margin-right: 50px;
-    margin-bottom: 3px;
-}
-.sdnj{
-    text-align:end;
-    font-size: 40px;
-    font-weight: 700;
-    margin-right: 50px;
-    margin-top: 0px;
+    margin:100px 0;
 }
