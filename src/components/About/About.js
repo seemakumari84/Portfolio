@@ -7,9 +7,8 @@ function Homepage() {
     return (
         <div className="homepage_container">
             <div className="homepage_left">
-                <p className="homepage_left_h1"><span className="red_color">Hi,</span> my name is</p>
                 <p className="homepage_left_h2">Seema Kumari</p>
-                <p className="homepage_left_h3">I'm an SDE Intern at<span className="red_color"> Astomverse Innovations Pvt. Ltd.</span></p>
+                <p className="homepage_left_h3">SDE Intern at<span className="red_color"> Astomverse Innovations Pvt. Ltd.</span></p>
                 <p className="homepage_left_description"><span id="highlight">NIT Patna Student Clubs:</span>
           <li>Blockchain Team member in <span>Hackslash club</span></li>
           <li>Technical Team member in <span>Robotics club</span></li>
