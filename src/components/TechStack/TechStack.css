@@ -1,12 +1,14 @@
 .TechStack_cont{
-    height: 80vh;
+    height: 80vh;flex-wrap: wrap;
 }
 .Techstack_title{
     text-align: center;
     font-size: 45px;
-    font-weight: 700;
+    font-weight: 700;    
+
 }
 .Techstack_img_row_cont{
-    display: flex;
+    display: flex;   
     margin:100px 0;
 }
+

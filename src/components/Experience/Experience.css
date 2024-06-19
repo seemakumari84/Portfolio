@@ -12,3 +12,13 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+@media (max-width: 768px) {
+    .experience_title {
+        font-size: 36px;
+    }
+
+    .experience_cards_container > * {
+        flex: 0.5 0.5 300px; /* Minimum width of 300px */
+        margin: 10px;
+    }
+}

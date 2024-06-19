@@ -3,8 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: whitesmoke;flex-wrap: wrap;  padding: 0 9%;
-
+    color: whitesmoke;padding: 0 9%;
 }
 .nav_left{
     font-size: 40px;
@@ -28,4 +27,19 @@
 }
 hr{
     width:100%;
+}
+@media (max-width: 768px) {
+    .nav_left {
+        font-size: 30px;
+    }
+
+    .nav_right {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .nav_right p {
+        font-size: 16px;
+        padding:8px 10px
+    }
 }
