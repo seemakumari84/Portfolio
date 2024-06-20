@@ -1,7 +1,25 @@
 import React from "react";
 import "./Navbar.css";
+import {useNavigate} from "react-router-dom";
 
+  
 function Navbar(){
+    const navigate=useNavigate();
+  const goToAboutPage=()=>{
+    navigate("/Seema's About Page")
+  }
+  const goToResumePage=()=>{
+    navigate("/Seema's Resume")
+  }
+  const goToProjectsPage=()=>{
+    navigate("/Seema's Projects Page")
+  }
+  const goToToolsPage=()=>{
+    navigate("/Seema's Tools Page")
+  }
+  const goToExperiencePage=()=>{
+    navigate("/Seema's Experience Page")
+  }
     var name="<SK/>"
     return (
         <>
@@ -10,11 +28,11 @@ function Navbar(){
                 {name}
             </div>
             <div className="nav_right">
-                <p>About</p>
-                <p>Tools</p>
-                <p>Experience</p>
-                <p>Projects</p>
-                <p>Resume</p>
+                <p onClick={goToAboutPage}>About</p>
+                <p onClick={goToToolsPage}>Tools</p>
+                <p onClick={goToExperiencePage}>Experience</p>
+                <p onClick={goToProjectsPage}>Projects</p>
+                <p onClick={goToResumePage}>Resume</p>
             </div>
         </div>
         <hr/>
