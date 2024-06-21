@@ -4,6 +4,7 @@ import githubIcon from "../../images/github.png";
 import linkedinIcon from "../../images/linkedin.png";
 
 function Homepage() {
+   
     return (
         <div className="homepage_container">
             <div className="homepage_left">

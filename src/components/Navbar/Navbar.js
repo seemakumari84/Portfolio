@@ -6,19 +6,19 @@ import {useNavigate} from "react-router-dom";
 function Navbar(){
     const navigate=useNavigate();
   const goToAboutPage=()=>{
-    navigate("/Seema's About Page")
+    navigate("/about-me")
   }
   const goToResumePage=()=>{
-    navigate("/Seema's Resume")
+    navigate("/Resume")
   }
-  const goToProjectsPage=()=>{
-    navigate("/Seema's Projects Page")
+  const goToProjectPage=()=>{
+    navigate("/Project")
   }
-  const goToToolsPage=()=>{
-    navigate("/Seema's Tools Page")
+  const goToCertificatesPage=()=>{
+    navigate("/Certificates")
   }
   const goToExperiencePage=()=>{
-    navigate("/Seema's Experience Page")
+    navigate("/Experience")
   }
     var name="<SK/>"
     return (
@@ -29,9 +29,9 @@ function Navbar(){
             </div>
             <div className="nav_right">
                 <p onClick={goToAboutPage}>About</p>
-                <p onClick={goToToolsPage}>Tools</p>
+                <p onClick={goToCertificatesPage}>Certificates</p>
                 <p onClick={goToExperiencePage}>Experience</p>
-                <p onClick={goToProjectsPage}>Projects</p>
+                <p onClick={goToProjectPage}>Projects</p>
                 <p onClick={goToResumePage}>Resume</p>
             </div>
         </div>
