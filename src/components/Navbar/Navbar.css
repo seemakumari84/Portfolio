@@ -30,16 +30,16 @@ hr{
 }
 @media (max-width: 768px) {
     .nav_left {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .nav_right {
         flex-direction: row;
         align-items: flex-start;
     }
-
+    hr{width:100%}
     .nav_right p {
-        font-size: 16px;
-        padding:8px 10px
+        font-size: 13px;
+        padding:8px 2px;
     }
 }

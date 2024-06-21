@@ -12,31 +12,30 @@ function Projects() {
       title: "UI/UX Projects",
       sentences: [
         "Designed interfaces for a variety of applications including:-",
-        "1) Food delivery services ",     
-       " 2) E-commerce platforms like Amazon, Flipkart etc ",
-       "3) Starbucks corporations"
-       
+        <li>" Food delivery services and Starbucks corporations "</li>,     
+       <li>"  E-commerce platforms like Amazon, Flipkart etc "</li>,    
       ],
       link: "https://www.figma.com/files/team/1299986545161488355/",
+    },{
+      image: app,
+      title: "AppDev Projects",
+      sentences: [
+       <li>"Created ToDo app on Android Studio using Kotlin"</li>
+      ],
+      link: "https://github.com/seemakumari84/Todo-app",
     },{
       image: web,
       title: "WebDev Projects ",
       sentences: [
-        "1) Created a Rock-Paper-Scissors and tic-tac-toe game using javascript, html, css",
-        "2) Developed a website to assist farmers in accessing information about crop diseases and renting agricultural tools ",
-        "3) Created websites clone of Nas.io, Amazon using html and css"
+        <li>" Created a Rock-Paper-Scissors and tic-tac-toe game using JS "</li>,
+
+        <li>"Created websites clone of Nas.io, Amazon"</li>,
+        <li>" Developed a website to assist farmers in Accessing Information "</li>,
       ],
       link: "https://github.com/seemakumari84",
     },
     
-    {
-      image: app,
-      title: "AppDev Projects",
-      sentences: [
-       "1) Created ToDo app on Android Studio using Kotlin"
-      ],
-      link: "https://github.com/seemakumari84/Todo-app",
-    },
+    
   ];
 
   return (

@@ -10,6 +10,10 @@
     padding-right: 20px;    min-width: 280px;
 }
 
+.highlight-logo {
+    margin-right: 5px;
+}
+
 .homepage_left_description li {
     margin-top: 6px;font-size: 18px;
 }
@@ -26,17 +30,21 @@
 #highlight {
     color: red;
     font-size: 25px;
-}
+    margin-right:5px; 
+        display: flex;
+        align-items: center;
+    }
+    
+
 
 #gitImg {
     margin-right: 15px;
 }
 
 .homepage_right {
-    flex: 0.3; /* Full width on smaller screens */
-    ;margin-left: 20px;   
+    flex: 0.3; 
+    margin-left: 20px;   
 }
-
 .red_color {
     color: red;
     font-size:30px ;
@@ -55,7 +63,7 @@
 
 .homepage_left_button {
     margin: 25px 0;
-    font-size: 20px;
+    font-size: 25px;
     padding: 8px 10px;
     background-color: black;
     color: red;
@@ -86,7 +94,7 @@
     .homepage_left_description li {
         font-size: 16px;
     }
-
+    
     .homepage_right {
         margin-top: 20px;        margin-left: 0;
 

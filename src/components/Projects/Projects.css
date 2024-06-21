@@ -6,6 +6,10 @@
 .projects_box_container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    align-items: center;min-width: 280px;
 }
+@media (max-width: 768px) {
+    .projects_box_container{
+        flex-wrap: wrap;
+    }
+    }

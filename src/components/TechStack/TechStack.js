@@ -47,12 +47,12 @@ function TechStack() {
     {
       iconImage: java,
       iconAlt: "javaImage",
-      iconName: "java",
+      iconName: "Java",
     },
     {
       iconImage: firebase,
       iconAlt: "firebaseImage",
-      iconName: "firebase",
+      iconName: "Firebase",
     },
   ];
 

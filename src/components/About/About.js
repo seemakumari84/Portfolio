@@ -2,7 +2,8 @@ import React from "react";
 import "./Homepage.css";
 import githubIcon from "../../images/github.png";
 import linkedinIcon from "../../images/linkedin.png";
-
+import NITPLogo from "../../images/NIt patna.png"
+import gif from "../../images/gif.gif"
 function Homepage() {
    
     return (
@@ -10,7 +11,11 @@ function Homepage() {
             <div className="homepage_left">
                 <p className="homepage_left_h2">Seema Kumari</p>
                 <p className="homepage_left_h3">SDE Intern at<span className="red_color"> Astomverse Innovations Pvt. Ltd.</span></p>
-                <p className="homepage_left_description"><span id="highlight">NIT Patna Student Clubs:</span>
+                <p className="homepage_left_description">
+    <span id="highlight">
+        <img src={NITPLogo} width="40px" className="highlight-logo" alt="NIT Patna Logo"/> 
+        NIT Patna Student Clubs:
+    </span>
           <li>Blockchain Team member in <span>Hackslash club</span></li>
           <li>Technical Team member in <span>Robotics club</span></li>
           <li>Web Team member in <span>Tesla club</span></li>
@@ -18,10 +23,10 @@ function Homepage() {
         I have work experience as an SDE Intern at Astomverse Innovations Pvt. Ltd., where I developed website using React.js, created UI/UX designs, and built 3D models using Blender.My technical skills span multiple programming languages including Java, C, and JavaScript, with proficiency in frameworks like React.js.I'm also well-versed in various development and design tools such as Visual Studio Code, Blender, Canva, and Figma.My expertise extends into the realm of ethical hacking, with knowledge of tools like Burp Suite, Wireshark, and Metasploit Framework.</p></p>
                 <div>
                     <a href="https://github.com/seemakumari8" target="_blank" id="gitImg">
-                        <img src={githubIcon} alt="githubimage"width="64px" />
+                        <img src={githubIcon} alt="githubimage"width="80px" />
                     </a>
                     <a href="https://www.linkedin.com/in/seemakumari8/" target="_blank">
-                        <img src={linkedinIcon} alt="linkedinimage"width="64px" />
+                        <img src={linkedinIcon} alt="linkedinimage"width="80px" />
                     </a>
                 </div>
                 <a href="mailto:seemakumari8122005@gmail.com">
@@ -29,7 +34,7 @@ function Homepage() {
                 </a>
             </div>
             <div className="homepage_right">
-                <img src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif" alt="GIF" />
+                <img src={gif} alt="GIF"width="330px" />
             </div>
         </div>
     )

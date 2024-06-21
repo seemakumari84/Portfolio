@@ -1,8 +1,7 @@
 .group-child {
     margin-bottom: 0;
     background-color:rgb(24, 23, 23);
-    width: 1366px;
-    max-width: 100%;
+    width: 100%;
     text-align: center;    height: 180px;
   }
   .group-child1,
@@ -10,7 +9,7 @@
   .group-child3,
   .group-child4 {
     padding: 10px;
-    left: 392px;
+    left: 28%;
     border-radius:20px;
     width: 66px;
     height: 51px;
@@ -19,14 +18,14 @@
   .group-child1,
   .group-child2,
   .group-child3 {
-    left: 713px;
+    left: 52%;
   }
   .group-child2,
   .group-child3 {
-    left: 494px;
+    left: 36%;
   }
   .group-child3 {
-    left: 603px;
+    left: 44%;
   }
   
   .design-by-seema {
