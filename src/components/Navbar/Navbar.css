@@ -31,15 +31,22 @@ hr{
 @media (max-width: 768px) {
     .nav_left {
         font-size: 20px;
+        font-weight: 700;
     }
-
+    .nav_container{
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: whitesmoke;padding: 0 4%;
+    }
     .nav_right {
         flex-direction: row;
         align-items: flex-start;
     }
     hr{width:100%}
     .nav_right p {
-        font-size: 13px;
-        padding:8px 2px;
+        font-size: 11px;
+        padding:8px 1px;margin-right:0.5px;
     }
 }

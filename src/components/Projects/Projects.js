@@ -11,26 +11,26 @@ function Projects() {
       image: UI,
       title: "UI/UX Projects",
       sentences: [
-        "Designed interfaces for a variety of applications including:-",
-        <li>" Food delivery services and Starbucks corporations "</li>,     
-       <li>"  E-commerce platforms like Amazon, Flipkart etc "</li>,    
+        "Designed interfaces of applications including:-",
+        <li>Food delivery services and Starbucks corporations</li>,     
+       <li>E-commerce platforms like Amazon, Flipkart etc </li>,    
       ],
-      link: "https://www.figma.com/files/team/1299986545161488355/",
+      link: "https://shorturl.at/mgF4V",
     },{
       image: app,
       title: "AppDev Projects",
       sentences: [
-       <li>"Created ToDo app on Android Studio using Kotlin"</li>
+       <li>Created ToDo app on Android Studio using Kotlin language</li>
       ],
       link: "https://github.com/seemakumari84/Todo-app",
     },{
       image: web,
       title: "WebDev Projects ",
       sentences: [
-        <li>" Created a Rock-Paper-Scissors and tic-tac-toe game using JS "</li>,
 
-        <li>"Created websites clone of Nas.io, Amazon"</li>,
-        <li>" Developed a website to assist farmers in Accessing Information "</li>,
+        <li>Created websites clone of Nas.io, Amazon</li>,
+        <li>Developed a website to assist farmers </li>,        <li>Created Rock-Paper-Scissors & Tic-Tac-Toe game</li>,
+
       ],
       link: "https://github.com/seemakumari84",
     },

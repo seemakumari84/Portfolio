@@ -13,7 +13,7 @@ function Homepage() {
                 <p className="homepage_left_h3">SDE Intern at<span className="red_color"> Astomverse Innovations Pvt. Ltd.</span></p>
                 <p className="homepage_left_description">
     <span id="highlight">
-        <img src={NITPLogo} width="40px" className="highlight-logo" alt="NIT Patna Logo"/> 
+        <img src={NITPLogo} width="35px" className="highlight-logo" alt="NIT Patna Logo"/> 
         NIT Patna Student Clubs:
     </span>
           <li>Blockchain Team member in <span>Hackslash club</span></li>

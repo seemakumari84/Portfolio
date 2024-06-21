@@ -16,7 +16,7 @@ function footer(){
         </a>
         <a href="https://drive.google.com/file/d/1NlGIs3pD9OK805d0bCi4AKZ2Dckj8iao/view?usp=drive_link">          <img className="group-child3"alt="" src={MailIcon} />
         </a>
-      <div className="design-by-seema">Made by Seema Kumari | Electrical Engineer @NIT Patna </div></div>
+      <div className="design-by-seema">Made by Seema Kumari |<br/> Electrical Engineer @NIT Patna </div></div>
   );
  
 };

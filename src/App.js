@@ -10,7 +10,6 @@ import Exp from "./navigation/Exp";
 import Proj from "./navigation/Project";
 import Resume from "./navigation/Resume";
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
-import Certificates from './navigation/Certificates';
 
 function App() {
   return (
@@ -21,7 +20,6 @@ function App() {
         <Route path="/about-me" element={<Aboutme/>}/>
         <Route path="/Project" element={<Proj/>}/>
         <Route path="/Experience" element={<Exp/>}/>
-        <Route path="/Certficates" element={<Certificates/>}/>
         <Route path="/Resume" element={<Resume/>}/>
         <Route 
             path="/" 

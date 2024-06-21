@@ -32,3 +32,30 @@
     margin: 0 9px;
     padding-bottom: 20px;
 }
+@media (max-width: 480px) {
+    .ex_card_container {
+        width: 95%; 
+        padding: 20px 14px; 
+    }
+
+    .ex_card_title {
+        font-size: 28px;
+    }
+
+    .ex_card_subtitle {
+        font-size: 20px; 
+    }
+
+    .ex_card_sentence {
+        font-size: 16px; 
+    }
+
+    .ex_card_tech_used_title {
+        font-size: 20px; 
+    }
+
+    .ex_card_icon_images_container > img {
+        height: 35px; 
+        margin: 0 4px; 
+    }
+}

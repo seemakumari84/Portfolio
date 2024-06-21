@@ -99,4 +99,7 @@
         margin-top: 20px;        margin-left: 0;
 
     }
+    .highlight-logo {
+        width: 40px;margin-right: 0.5px;
+    }
 }

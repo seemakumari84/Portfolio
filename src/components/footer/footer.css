@@ -31,7 +31,36 @@
   .design-by-seema {
     font-size: 29px;
     width: 402px;
-    height: 40px; margin: auto;color: whitesmoke;
+    height:auto; margin: auto;color: whitesmoke;
+  }
+  @media (max-width: 768px) {
+    .group-child1,
+    .group-child2,
+    .group-child3,
+    .group-child4 {
+      width: 50px;
+      height: 40px;
+      margin: 15px 5px; /* Adjusted margin for smaller screens */
+    }
+  
+    .design-by-seema {
+      font-size: 24px;
+      width: 100%;
+    }
   }
   
+  @media (max-width: 480px) {
+    .group-child1,
+    .group-child2,
+    .group-child3,
+    .group-child4 {
+      width: 40px;
+      height: 35px;
+      margin: 10px 5px; /* Adjusted margin for smaller screens */
+    }
+  
+    .design-by-seema {
+      font-size: 20px;
+    }
+  }
   

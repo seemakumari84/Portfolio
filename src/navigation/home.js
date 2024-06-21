@@ -5,7 +5,7 @@ function home(){
     <div className="Routing">
     <span>Education:</span><br/>Pursuing a BTech MTech (Dual Degree) in Electrical Engineering from the National Institute of Technology, Patna.<br/>
     Senior Secondary School: Rosera Sr. Secondary School, Rosera, Samastipur. Scored 83.2%.<br/>
-    High School: Girls High School, Rosera, Samastipur. Scored 94.8%.<br/>
+    High School: Girls High School, Rosera, Samastipur. Scored 94.8%.<br/><br/>
     
     <span>Technical Skills:</span><br/>
     

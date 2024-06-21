@@ -14,9 +14,6 @@ function Navbar(){
   const goToProjectPage=()=>{
     navigate("/Project")
   }
-  const goToCertificatesPage=()=>{
-    navigate("/Certificates")
-  }
   const goToExperiencePage=()=>{
     navigate("/Experience")
   }
@@ -29,7 +26,6 @@ function Navbar(){
             </div>
             <div className="nav_right">
                 <p onClick={goToAboutPage}>About</p>
-                <p onClick={goToCertificatesPage}>Certificates</p>
                 <p onClick={goToExperiencePage}>Experience</p>
                 <p onClick={goToProjectPage}>Projects</p>
                 <p onClick={goToResumePage}>Resume</p>
