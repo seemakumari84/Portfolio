@@ -20,9 +20,9 @@ function Projects() {
       image: app,
       title: "AppDev Projects",
       sentences: [
-       <li>Created ToDo app on Android Studio using Kotlin language</li>
+       <li>Created ToDo app on Android Studio using Kotlin language and real time database</li>
       ],
-      link: "https://github.com/seemakumari84/Todo-app",
+      link: "github.com/seemakumari84/Todo-app",
     },{
       image: web,
       title: "WebDev Projects ",

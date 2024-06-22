@@ -22,6 +22,16 @@ function App() {
         <Route path="/Experience" element={<Exp/>}/>
         <Route path="/Resume" element={<Resume/>}/>
         <Route 
+            path="/home" 
+            element={
+              <>
+                <About />
+                <TechStack />
+                <Experience />
+                <Projects />
+                <Footer />
+              </>
+            }/> <Route 
             path="/" 
             element={
               <>
@@ -31,7 +41,7 @@ function App() {
                 <Projects />
                 <Footer />
               </>
-            } 
+            }
           />
       </Routes></BrowserRouter>
       </div>

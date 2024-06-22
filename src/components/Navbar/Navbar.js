@@ -8,6 +8,9 @@ function Navbar(){
   const goToAboutPage=()=>{
     navigate("/about-me")
   }
+  const goToHomePage=()=>{
+    navigate("/home")
+  }
   const goToResumePage=()=>{
     navigate("/Resume")
   }
@@ -25,6 +28,7 @@ function Navbar(){
                 {name}
             </div>
             <div className="nav_right">
+            <p onClick={goToHomePage}>Home</p>
                 <p onClick={goToAboutPage}>About</p>
                 <p onClick={goToExperiencePage}>Experience</p>
                 <p onClick={goToProjectPage}>Projects</p>
