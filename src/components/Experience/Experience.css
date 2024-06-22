@@ -1,6 +1,6 @@
 .experience_title {
     font-size: 45px;
-    font-weight: 700;
+    font-weight: 700; 
     text-align: center;
 }
 .experience_container {
@@ -19,6 +19,6 @@
 
     .experience_cards_container > * {
         flex: 0.5 0.5 300px; /* Minimum width of 300px */
-        margin: .75%;
+        margin-top: .75%;
     }
 }

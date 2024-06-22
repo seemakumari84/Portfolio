@@ -13,7 +13,7 @@
     border-radius:20px;
     width: 66px;
     height: 51px;
-    margin-right: 10px;margin-top: 2%;
+    margin-right: 10px;margin:1.2% 0;
   }
   .group-child1,
   .group-child2,
@@ -57,7 +57,7 @@
     .group-child4 {
       width: 40px;
       height: 35px;
-      margin: .7% 5px; /* Adjusted margin for smaller screens */
+      margin: 3% 5px; /* Adjusted margin for smaller screens */
     }
   
     .design-by-seema {

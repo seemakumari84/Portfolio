@@ -105,5 +105,8 @@
     }
     .highlight-logo {
         width: 35px;margin-right: 2px;
+    }.homepage_left_button {
+        margin: 8% 0;
+        font-size: 25px;
     }
 }

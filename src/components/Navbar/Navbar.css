@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;min-width: 280px;
-    color: whitesmoke;padding: 0 9%;flex-wrap: wrap;
+    color: whitesmoke;padding: 0 9%;
 }
 .nav_left{
     margin: 5px 0;

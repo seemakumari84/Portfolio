@@ -14,7 +14,7 @@ function footer(){
         </a>
         <a href="https://www.youtube.com/channel/UCli8ZKUwJou_0KKja02Tr1Q">      <img className="group-child2" alt="" src={YoutubeIcon} />
         </a>
-        <a href="https://drive.google.com/file/d/1NlGIs3pD9OK805d0bCi4AKZ2Dckj8iao/view?usp=drive_link">          <img className="group-child3"alt="" src={MailIcon} />
+        <a href="mailto:seemak.ug23.ee@nitp.ac.in">          <img className="group-child3"alt="" src={MailIcon} />
         </a>
       <div className="design-by-seema">Made by Seema Kumari |<br/> Electrical Engineer @NIT Patna </div></div>
   );
