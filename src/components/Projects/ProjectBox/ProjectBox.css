@@ -58,6 +58,9 @@
     }
 
     .project_box_sentences_container > p, .project_box_link {
-        font-size: 16px;
+            font-size: 16px;
+            display: flex;
+            text-align: center;
+        }
     }
-}
+

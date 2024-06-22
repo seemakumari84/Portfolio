@@ -16,13 +16,13 @@ function Homepage() {
         <img src={NITPLogo} width="35px" className="highlight-logo" alt="NIT Patna Logo"/> 
         NIT Patna Student Clubs:
     </span>
-          <li>Blockchain Team member in <span>Hackslash club</span></li>
+    <li>Web Team member in <span>Tesla club</span></li>
           <li>Technical Team member in <span>Robotics club</span></li>
-          <li>Web Team member in <span>Tesla club</span></li>
+          <li>Blockchain Team member in <span>Hackslash </span></li>
         <p>Pursuing a BTech+MTech(Dual Degree) in Electrical Engineering from the National Institute of Technology, Patna.
         I have work experience as an SDE Intern at Astomverse Innovations Pvt. Ltd., where I developed website using React.js, created UI/UX designs, and built 3D models using Blender.My technical skills span multiple programming languages including Java, C, and JavaScript, with proficiency in frameworks like React.js.I'm also well-versed in various development and design tools such as Visual Studio Code, Blender, Canva, and Figma.My expertise extends into the realm of ethical hacking, with knowledge of tools like Burp Suite, Wireshark, and Metasploit Framework.</p></p>
                 <div>
-                    <a href="https://github.com/seemakumari8" target="_blank" id="gitImg">
+                    <a href="https://github.com/seemakumari84" target="_blank" id="gitImg">
                         <img src={githubIcon} alt="githubimage"width="80px" />
                     </a>
                     <a href="https://www.linkedin.com/in/seemakumari8/" target="_blank">

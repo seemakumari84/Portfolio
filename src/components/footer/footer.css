@@ -1,7 +1,7 @@
 .group-child {
     margin-bottom: 0;
     background-color:rgb(24, 23, 23);
-    width: 100%;
+    width: 100%;max-width: 100%;
     text-align: center;    height: 180px;
   }
   .group-child1,
@@ -13,7 +13,7 @@
     border-radius:20px;
     width: 66px;
     height: 51px;
-    margin-right: 10px;margin-top: 25px;
+    margin-right: 10px;margin-top: 2%;
   }
   .group-child1,
   .group-child2,
@@ -40,13 +40,14 @@
     .group-child4 {
       width: 50px;
       height: 40px;
-      margin: 15px 5px; /* Adjusted margin for smaller screens */
+      margin: 1% 5px; /* Adjusted margin for smaller screens */
     }
   
     .design-by-seema {
       font-size: 24px;
       width: 100%;
     }
+    
   }
   
   @media (max-width: 480px) {
@@ -56,7 +57,7 @@
     .group-child4 {
       width: 40px;
       height: 35px;
-      margin: 10px 5px; /* Adjusted margin for smaller screens */
+      margin: .7% 5px; /* Adjusted margin for smaller screens */
     }
   
     .design-by-seema {

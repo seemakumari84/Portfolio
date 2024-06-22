@@ -4,7 +4,7 @@
     text-align: center;
 }
 .experience_container {
-    margin-bottom: 100px;
+    margin-bottom: 7.5%;
 }
 .experience_cards_container {
     display: flex;
@@ -14,11 +14,11 @@
 }
 @media (max-width: 768px) {
     .experience_title {
-        font-size: 36px;
+        font-size: 36px;margin-top: 0px;
     }
 
     .experience_cards_container > * {
         flex: 0.5 0.5 300px; /* Minimum width of 300px */
-        margin: 10px;
+        margin: .75%;
     }
 }

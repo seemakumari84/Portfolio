@@ -2,7 +2,7 @@
     display: flex;flex-wrap: wrap;
     align-items: center;
     min-height: 90vh;  padding: 0 9%;
-    height: auto;
+    height: auto;min-width: 280px;margin-top: 2%;
 }
 
 .homepage_left {
@@ -47,22 +47,22 @@
 }
 .red_color {
     color: red;
-    font-size:30px ;
+    font-size:35px ;
 }
 
 
 .homepage_left_h2 {
     font-size: 64px;
     font-weight: 700;
-    margin:0;
+    margin:-1% 0;
 }
 
 .homepage_left_h3 {
-    font-size: 30px;
+    font-size: 33px;
 }
 
 .homepage_left_button {
-    margin: 25px 0;
+    margin: 2% 0;
     font-size: 25px;
     padding: 8px 10px;
     background-color: black;
@@ -78,13 +78,15 @@
     .homepage_left {
         padding-right: 0;
     }
-
+    .red_color {
+        font-size:25px ;
+    }
     .homepage_left_h2 {
         font-size: 40px;font-weight: 600;
     }
 
     .homepage_left_h3 {
-        font-size: 24px;
+        font-size: 25px;
     }
 
     .homepage_left_description p {
@@ -92,14 +94,16 @@
     }
 
     .homepage_left_description li {
-        font-size: 16px;
+        font-size: 15px;
     }
     
     .homepage_right {
-        margin-top: 20px;        margin-left: 0;
+             margin-left: 0;
 
+    }#highlight{
+        font-size:22px ;
     }
     .highlight-logo {
-        width: 60px;margin-right: 0px;
+        width: 35px;margin-right: 2px;
     }
 }

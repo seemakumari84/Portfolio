@@ -1,5 +1,5 @@
 .TechStack_cont{
-    height: 80vh;flex-wrap: wrap;
+    height: 80vh;flex-wrap: wrap;min-width: 280px;
 }
 .Techstack_title{
     text-align: center;
@@ -9,6 +9,10 @@
 }
 .Techstack_img_row_cont{
     display: flex;   
-    margin:70px 0;
+    margin:5% 0;
 }
-
+@media (max-width: 768px) {
+.Techstack_img_row_cont{
+    margin-bottom: 0px;
+}
+}
